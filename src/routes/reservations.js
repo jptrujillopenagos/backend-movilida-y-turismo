@@ -195,6 +195,11 @@ router.delete('/:id', async (req, res) => {
 });
 
 module.exports = router;*/
+
+
+
+
+/*para que vuelva correr online debo de quital los documentadores y documentar lo que esta arriba */
 const router = require('express').Router();
 const supabase = require('../config/db');
 

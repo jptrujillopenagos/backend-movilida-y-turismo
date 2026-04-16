@@ -81,6 +81,12 @@ router.post('/login', async (req, res) => {
 });
 
 module.exports = router;*/
+
+
+
+
+
+/*para que vuelva correr online debo de quital los documentadores y documentar lo que esta arriba */
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs');

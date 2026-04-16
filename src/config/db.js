@@ -15,6 +15,11 @@ pool.connect()
 
 module.exports = pool;*/
 
+
+
+
+/*para que vuelva correr online debo de quital los documentadores y documentar lo que esta arriba */
+
 const { createClient } = require('@supabase/supabase-js');
 
 const supabase = createClient(
